@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D550A1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Seedwork.Tests", "tests\Seedwork.Tests\Seedwork.Tests.csproj", "{2C057D8E-622D-46EB-9E42-7568B59295C3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMap", "StructureMap\StructureMap.csproj", "{6383FBEC-8E77-4DB7-8FEA-6CD1E3B8310C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StructureMap", "main\StructureMap\StructureMap.csproj", "{6383FBEC-8E77-4DB7-8FEA-6CD1E3B8310C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
