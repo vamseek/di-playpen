@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Common.Infrastructure.Seedwork.DI
 {
@@ -7,5 +8,15 @@ namespace Common.Infrastructure.Seedwork.DI
         object Build(Type t);
 
         T Build<T>();
+
+        IEnumerable<object> BuildAll(Type t);
+
+        IEnumerable<T> BuildAll<T>();
+
+        IContainer BuildChildContainer();
+
+        object BuildObject(object instance);
+
+        bool HasType(Type t);
     }
 }
