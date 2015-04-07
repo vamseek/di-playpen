@@ -2,7 +2,7 @@
 
 namespace Common.Infrastructure.Seedwork.DI
 {
-    public interface IContainer
+    public interface IContainer : IDisposable
     {
         object Build(Type t);
 
